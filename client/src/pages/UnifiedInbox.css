@@ -1,0 +1,160 @@
+/**
+ * Unified Inbox Page Styles
+ */
+
+.unified-inbox {
+  padding: 20px;
+}
+
+.inbox-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inbox-header h1 {
+  color: #2c3e50;
+}
+
+.filters-card {
+  margin-bottom: 20px;
+}
+
+.filters-card h3 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.queries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.query-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+.query-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.query-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.query-title-section {
+  flex: 1;
+}
+
+.query-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.query-title:hover {
+  color: #3498db;
+}
+
+.query-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+.query-channel,
+.query-sender,
+.query-time {
+  text-transform: capitalize;
+}
+
+.query-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.query-content-preview {
+  color: #555;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.query-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.tag-badge {
+  background-color: #e8f4f8;
+  color: #2980b9;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.query-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.loading,
+.no-queries {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+}
+
+

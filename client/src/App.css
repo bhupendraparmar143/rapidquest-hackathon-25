@@ -1,0 +1,137 @@
+/**
+ * Main App Styles
+ */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-urgent {
+  background-color: #dc3545;
+  color: white;
+}
+
+.badge-high {
+  background-color: #fd7e14;
+  color: white;
+}
+
+.badge-medium {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.badge-low {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-new {
+  background-color: #007bff;
+  color: white;
+}
+
+.badge-assigned {
+  background-color: #6c757d;
+  color: white;
+}
+
+.badge-in-progress {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.badge-resolved {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-closed {
+  background-color: #6c757d;
+  color: white;
+}
+
+.badge-escalated {
+  background-color: #dc3545;
+  color: white;
+}
+
+
