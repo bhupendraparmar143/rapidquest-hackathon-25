@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rapidquest-hackathon-25/static/css/main.d061dc28.css",
+    "main.js": "/rapidquest-hackathon-25/static/js/main.a9d2615c.js",
+    "index.html": "/rapidquest-hackathon-25/index.html",
+    "main.d061dc28.css.map": "/rapidquest-hackathon-25/static/css/main.d061dc28.css.map",
+    "main.a9d2615c.js.map": "/rapidquest-hackathon-25/static/js/main.a9d2615c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d061dc28.css",
+    "static/js/main.a9d2615c.js"
+  ]
+}
