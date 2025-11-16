@@ -1,5 +1,5 @@
-# Root .gitignore
-# This file ignores root-level files and folders
+# Server .gitignore
+# Backend-specific ignores
 
 # Dependencies
 node_modules/
@@ -18,6 +18,20 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Database
+*.db
+*.sqlite
+data/
+
+# Build outputs
+dist/
+build/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+
 # IDE
 .vscode/
 .idea/
@@ -29,14 +43,12 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Build outputs (if any at root)
-dist/
-build/
-
-# Testing
-coverage/
-.nyc_output/
+# Redis dump
+dump.rdb
 
 # Temporary files
 *.tmp
 *.temp
+.cache/
+
+
