@@ -184,6 +184,25 @@ curl -X POST http://localhost:5000/api/webhooks/generic \
   }'
 ```
 
+## 🌐 Live Demo
+
+- **Frontend**: [View Live Demo](https://bhupendraparmar143.github.io/rapidquest-hackathon-25/)
+- **API**: Configure your backend URL in the frontend
+
+## 🐛 Troubleshooting
+
+### Redis Connection Errors
+If you see Redis connection errors, don't worry! Redis is optional. The application will work without it, but queue features will be limited. To enable Redis:
+- Install Redis locally, or
+- Use a cloud Redis service and set `REDIS_HOST` in `.env`
+
+### MongoDB Connection Issues
+Make sure MongoDB is running or use MongoDB Atlas:
+1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+2. Create a cluster
+3. Get your connection string
+4. Update `MONGODB_URI` in `.env`
+
 ## 📝 License
 
 ISC
@@ -191,10 +210,21 @@ ISC
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📞 Support
 
 For issues or questions, please check the documentation or create an issue in the repository.
+
+## 👨‍💻 Author
+
+**Bhupendra Parmar**
+- GitHub: [@bhupendraparmar143](https://github.com/bhupendraparmar143)
+
+## 🙏 Acknowledgments
+
+- Built for RapidQuest Hackathon 2025
+- Thanks to all contributors and the open-source community
